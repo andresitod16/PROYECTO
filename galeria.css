@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+.tec{
+    color: rgb(170, 255, 0);
+    
+}
+img{
+    margin-bottom: auto;
+    width: 200px;
+    
+}
