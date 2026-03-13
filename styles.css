@@ -22,7 +22,7 @@ text-align: center;
 header{
     color: yellow;
 }
-.nombre{
+.titulo{
     color: chartreuse;
     text-align: center;
     text-transform: unset;
@@ -35,7 +35,7 @@ h2{
 
 .logo{
    width: 200px;
-display: block;
+display: end;
 margin: auto;
 
   
@@ -43,5 +43,5 @@ margin: auto;
 }
 
 body{
-    background-color: black;
+    background-color: rgb(53, 23, 63);
 }
