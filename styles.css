@@ -19,9 +19,6 @@ list-style:none;
 color: yellow;
 text-align: center;
 }
-header{
-    color: yellow;
-}
 .titulo{
     color: chartreuse;
     text-align: center;
@@ -42,6 +39,21 @@ margin: auto;
 
 }
 
+
+
+.def{
+    
+    color: white;
+   margin-bottom: 1rem;
+   font-size: 18px;
+   
+
+}
+
+
 body{
     background-color: rgb(53, 23, 63);
 }
+
+
+
