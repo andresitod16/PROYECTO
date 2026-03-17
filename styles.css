@@ -32,29 +32,28 @@ text-align: center;
 
 }
 
-.ht{
+.titulo__3{
+    color: chartreuse;
+    text-align: center;
+    text-transform: unset;
+
+
+}
+.cs{
     color: white;
     margin-bottom: 1rem;
 }
 
-
-.logo{
-   width: 200px;
-display: end;
-margin: auto;
-
-  
-
+.ht{
+    color: white;
+    margin-bottom: 1rem;
 }
-
-
 
 .def{
     
     color: white;
    margin-bottom: 1rem;
    font-size: 18px;
-  
 
 }
 
@@ -82,12 +81,7 @@ margin: auto;
     color: white;
      margin-bottom: 1rem;
 }
-.csss{
-    text-transform: uppercase;
-    color: yellow;
-     text-align: center;
-     margin-bottom: 1rem;
-}
+
 
     
 
