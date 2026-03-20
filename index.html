@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página</title>
+    <title></title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 <header>
-    <nav>
+    <nav class="menu">
+        <h1 class="logo">HTML Y CSS</h1>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="galeria.html">Galería</a></li>
@@ -18,56 +19,75 @@
         </ul>
     </nav>
 </header>
+
+<section class="titulo">
+    <h2>TEMAS VISTO EN CLASES</h2>
+</section>
+
 <div class="contenedor">
 
-    <section>
-        <h2>¿QUÉ ES CSS?</h2>
+    <div class="card">
+        <h2>¿Qué es CSS?</h2>
         <p>
-            El CSS es el lenguaje que se utiliza para dar estilos a una página web,
-            como colores, tamaños, márgenes y diseño en general.
+            CSS (Cascading Style Sheets) es el lenguaje que se utiliza para darle estilo a una página web.
+            Permite cambiar colores, tamaños, fuentes, espacios y el diseño en general.
         </p>
-    </section>
-    <section>
-        <h2>¿QUÉ ES HTML?</h2>
-        <p>
-            HTML es el lenguaje que se utiliza para estructurar el contenido de una página web
-            mediante etiquetas.
-        </p>
-    </section>
-    <section>
-        <h1>BOX MODEL</h1>
-        <ul>
-            <li>El box model organiza los elementos en forma de caja.</li>
-            <li><strong>Padding:</strong> espacio interno entre contenido y borde.</li>
-            <li><strong>Width:</strong> ancho del elemento.</li>
-            <li><strong>Border:</strong> borde que rodea el elemento.</li>
-            <li><strong>Margin:</strong> espacio externo entre elementos.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>¿QUÉ ES DISPLAY?</h2>
-        <ul>
-            <li>Define cómo se muestran los elementos.</li>
-            <li><strong>Block:</strong> ocupa todo el ancho.</li>
-            <li><strong>None:</strong> oculta el elemento.</li>
-            <li><strong>Inline:</strong> no salta de línea.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>¿QUÉ ES FLEXBOX?</h2>
-        <p>
-            Flexbox es un sistema que permite organizar elementos de forma flexible dentro de un contenedor.
-        </p>
+    </div>
 
-        <h3>¿Cómo funciona?</h3>
+    <div class="card">
+        <h2>¿Qué es HTML?</h2>
+        <p>
+            HTML (HyperText Markup Language) es el lenguaje que se utiliza para crear la estructura
+            de una página web mediante etiquetas como títulos, párrafos, imágenes y enlaces.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Box Model</h2>
+        <p>
+            el Box model es la forma en que CSS representa cada elemento como una caja rectangular.
+            esta compuesto por varias partes que controlan el tamaño y el espacio.
+        </p>
+        <ul>
+            <li><b>Content:</b> contenido del elemento.</li>
+            <li><b>Padding:</b> espacio interno entre contenido y borde.</li>
+            <li><b>Border:</b> borde que rodea el elemento.</li>
+            <li><b>Margin:</b> espacio externo entre elementos.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Display</h2>
+        <p>
+            la propiedad display es el como se comporta un elemento en la pagina y el espacio que ocupa.
+        </p>
+        <ul>
+            <li><b>block:</b> ocupa todo el ancho disponible.</li>
+            <li><b>inline:</b> se mantiene en línea sin saltos.</li>
+            <li><b>inline-block:</b> mezcla de ambos.</li>
+            <li><b>nonne:</b> oculta el elemento.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Flexbox</h2>
+        <p>
+            flexbox es un sistema de diseño que permite organizar elementos dentro de un contenedor
+            de forma flexible, alineándolos y distribuyéndolos fácilmente.
+        </p>
+        <h4>¿Como funciona?</h4>
         <ul>
             <li>Contenedor padre (flex container)</li>
             <li>Elementos hijos (flex items)</li>
-            <li>Los elementos se acomodan automáticamente</li>
+            <li>Permite centrar y ordenar elementos fácilmente</li>
         </ul>
-    </section>
+    </div>
 
 </div>
+
+<footer>
+    <p> 2026 - Andres</p>
+</footer>
 
 </body>
 </html>
