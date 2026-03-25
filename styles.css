@@ -56,13 +56,14 @@ body{
 
 
 
+
 .contenedor{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    padding: 40px;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
-/*todas las cartas*/
+/*todas las cars*/
 .card{
     background: #000000;
     padding: 20px;
@@ -71,26 +72,35 @@ body{
     transition: 0.3s;
 }
 
-.card h2{
+    .card h2{
     color: yellowgreen;
     margin-bottom: 10px;
 }
 
-.card p, .card li{
+.card p{
     color: #ccc;
+    width: 250px;
 }
+ .card li{
+    color: #ccc;
+    width: 250px;
+}
+
+
 
 .card ul{
     margin-top: 10px;
     padding-left: 20px;
+    width: 250px;
 }
 
-.card:hover{
-    transform: translateY(-10px);
+  .card:hover{
+
     box-shadow: 0 0 20px yellowgreen;
 }
 
-footer{
+  footer{
+    
     text-align: center;
     padding: 20px;
     background-color: yellowgreen;

@@ -1,4 +1,4 @@
-/* FONDO GENERAL */
+
 body{
     background: radial-gradient(circle, #0a0a0a, #000);
     font-family: Arial, Helvetica, sans-serif;
@@ -8,10 +8,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 600px;
 }
 
-/* FORMULARIO */
 form{
     background: #1a1a1a;
     padding: 30px;
@@ -25,14 +24,12 @@ form:hover{
     transform: scale(1.02);
 }
 
-/* TITULO */
 form h2{
     text-align: center;
     margin-bottom: 20px;
     color: yellowgreen;
 }
 
-/* INPUTS */
 form input{
     width: 100%;
     padding: 12px;
@@ -88,4 +85,13 @@ nav a:hover{
 }
 body{
     background: radial-gradient(circle at top, #111, #000);
+}
+
+footer{
+    
+    text-align: center;
+    padding: 20px;
+    background-color: yellowgreen;
+    margin-top: 20px;
+    color: #000000;
 }
